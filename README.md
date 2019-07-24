@@ -4,7 +4,7 @@ This repository contains an example of a [Google Cloud Run][cr] application that
 runs an SSH tunnel through a GCE instance within the container to route outbound
 requests of the Cloud Run application through the static IP of the GCE instance.
 
-:warning: **Read the accompanying blog post as well:**
+:warning: **Read the accompanying blog post as well:** https://ahmet.im/blog/cloud-run-static-ip/
 
 ## Before you begin
 
@@ -116,10 +116,8 @@ container instance, which would normally have a new dynamic IP assigned to the
 instance, but in this case it remains the same as Cloud Run holds onto the
 request.
 
-
 ---
 
-Don't forget to check out the accompanying blog post: 
-
+Don't forget to check out the accompanying blog post: https://ahmet.im/blog/cloud-run-static-ip/
 
 [cr]: https://cloud.google.com/run
