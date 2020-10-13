@@ -1,10 +1,10 @@
 # :warning: :warning: WARNING :warning: :warning: 
 
-As of October 2020, this workaround is now deprecated and obsolete.
+**As of October 2020, this workaround is now deprecated and obsolete.
 Cloud Run has an official feature (VPC egress) that allows you to configure
 a static IP through Cloud NAT. Follow the
 [step-by-step guide](https://cloud.google.com/run/docs/configuring/static-outbound-ip)
-I developed to use this feature
+I developed to use this feature.**
 
 # :warning: :warning: WARNING :warning: :warning: 
 
