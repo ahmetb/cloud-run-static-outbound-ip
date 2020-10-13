@@ -1,10 +1,22 @@
+# :warning: :warning: WARNING :warning: :warning: 
+
+As of October 2020, this workaround is now deprecated and obsolete.
+Cloud Run has an official feature (VPC egress) that allows you to configure
+a static IP through Cloud NAT. Follow the
+[step-by-step guide](https://cloud.google.com/run/docs/configuring/static-outbound-ip)
+I developed to use this feature
+
+# :warning: :warning: WARNING :warning: :warning: 
+
+--------
+
 # Static Outbound IP example for Cloud Run applications
 
 This repository contains an example of a [Google Cloud Run][cr] application that
 runs an SSH tunnel through a GCE instance within the container to route outbound
 requests of the Cloud Run application through the static IP of the GCE instance.
 
-:warning: **Read the accompanying blog post as well:** https://ahmet.im/blog/cloud-run-static-ip/
+**Read the accompanying blog post as well:** https://ahmet.im/blog/cloud-run-static-ip/
 
 ## Before you begin
 
